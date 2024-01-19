@@ -11,7 +11,7 @@ namespace LarTeste_API.Models
         [Required]
         [MaxLength(14)]
         public string CPF { get; set; }
-        public DateTime DataNascimento { get; set; }
+        public string DataNascimento { get; set; }
         [Required]
         public bool EstaAtivo { get; set; }
         public ICollection<Telefone> Telefones { get; set; }
